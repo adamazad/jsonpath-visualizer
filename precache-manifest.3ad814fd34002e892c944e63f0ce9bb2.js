@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2271716c7f848bf52f417fccea2172b",
+    "revision": "924f434426fdd25bf455e5aee61523a9",
     "url": "https://adamazad.github.io/jsonpath-visualizer/index.html"
   },
   {
-    "revision": "5bc692c03e1e00fe0007",
+    "revision": "b6393a8edbce06fc282a",
     "url": "https://adamazad.github.io/jsonpath-visualizer/static/css/main.3f3d231f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://adamazad.github.io/jsonpath-visualizer/static/js/2.e1479661.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5bc692c03e1e00fe0007",
-    "url": "https://adamazad.github.io/jsonpath-visualizer/static/js/main.d1a66fec.chunk.js"
+    "revision": "b6393a8edbce06fc282a",
+    "url": "https://adamazad.github.io/jsonpath-visualizer/static/js/main.996df96a.chunk.js"
   },
   {
     "revision": "677b8e5501120886d3b2",
