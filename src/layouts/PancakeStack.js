@@ -1,4 +1,3 @@
-import React from 'react';
 import Styled from 'styled-components';
 
 const StyledContainer = Styled.div`
@@ -8,27 +7,19 @@ const StyledContainer = Styled.div`
 `;
 
 const StyledSidebar = Styled.aside`
-  max-width: 400px;
+  max-width: 300px;
+  display: flex;
+  flex: 0 0 300px;
 `;
 
 const StyledMain = Styled.main`
+  display: flex;
   flex-grow: 2;
   background: #ffffff;
 `;
 
-function PancakeStack({ aside: AsideComponent, main: MainComponent }) {
-
-  return (
-    <StyledContainer>
-      <StyledSidebar>
-        <AsideComponent />
-      </StyledSidebar>
-      <StyledMain>
-        <MainComponent />
-      </StyledMain>
-    </StyledContainer>
-  );
-
+export default {
+  Container: StyledContainer,
+  Aside: StyledSidebar,
+  Main: StyledMain
 }
-
-export default PancakeStack;
