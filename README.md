@@ -1,6 +1,6 @@
 # JSONPath Visualizer
 
-A visuzlier for JSON search, using  [D3.js](https://d3js.org/) to annotate query's path.
+A visuzlier for JSON search, using  JSONPath to annotate query's path.
 
 ## Run
 
