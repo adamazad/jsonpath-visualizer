@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a7a27321f70be56fdfe37c051a9b33b",
+    "revision": "a2271716c7f848bf52f417fccea2172b",
     "url": "https://adamazad.github.io/jsonpath-visualizer/index.html"
   },
   {
