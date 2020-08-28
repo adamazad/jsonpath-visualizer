@@ -15,7 +15,7 @@ function NewQuery() {
 
     setLoading(true);
 
-    fetch(`http://cors-anywhere.herokuapp.com/https://blockchain.info/unconfirmed-transactions?format=json`, {
+    fetch(`https://cors-anywhere.herokuapp.com/https://blockchain.info/unconfirmed-transactions?format=json`, {
       headers: {
         'X-Requested-With': 'fetch'
       }
