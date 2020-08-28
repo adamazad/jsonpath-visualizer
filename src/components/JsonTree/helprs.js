@@ -55,12 +55,25 @@ function toValueType(val) {
   if (Array.isArray(val)) {
     return 'array';
   }
+  if (val === null) {
+    return 'null';
+  }
   return typeof val;
+}
+
+/**
+ * Checks if the object is empty === {}
+ * @param {object} obj
+ * @returns {boolean}
+ */
+function isObjectEmpty(obj) {
+  return !Object.keys(obj).length;
 }
 
 export default {
   toValueType,
   calculateHash,
+  isObjectEmpty,
   isValuePrintable,
   toPrintableValue,
 }

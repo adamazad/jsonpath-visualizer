@@ -57,6 +57,7 @@ function JsonToHTML({ json, location = '/', root = false }) {
          * "foo": null
          * "foo": undefined
          * "foo": boolean
+         * "foo": object
          */
         // If it is a printable value such: boolean, string, null
         if (Utils.isValuePrintable(json[k])) {
@@ -80,8 +81,12 @@ function JsonToHTML({ json, location = '/', root = false }) {
             className={ `${Array.isArray(json[k]) ? `json-key-array-pair` : `json-key-value-pair`}` }
             data-path={ nextLocation }
           >
-            <ExpandButton />
-            <span className="json-key">{ k }</span>
+            { !Utils.isObjectEmpty(json[k]) && (
+              <>
+                <ExpandButton />
+                <span className="json-key">{ k }</span>
+              </>
+            ) }
             <span className={ `json-value ${valueType}` }>
               { JsonToHTML({
                 json: json[k],
@@ -165,7 +170,10 @@ const JsonTree = forwardRef(({ json, ...props }, ref) => {
  * Prop validation
  */
 JsonTree.propTypes = {
-  json: PropTypes.object.isRequired
+  json: PropTypes.oneOfType([
+    PropTypes.array,
+    PropTypes.object
+  ]).isRequired
 }
 
 export default JsonTree;
