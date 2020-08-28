@@ -28,6 +28,9 @@ const HeaderInnerWrapper = Styled.header`
   z-index: 1;
   height: ${HEADER_HEIGHT};
   box-shadow: 0px 6px 6px 0 rgba(0,0,0,.12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 /**
