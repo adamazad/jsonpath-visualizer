@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "https://adamazad.github.io/jsonpath-visualizer/static/css/main.f903308c.chunk.css",
+    "main.js": "https://adamazad.github.io/jsonpath-visualizer/static/js/main.84e238b0.chunk.js",
+    "main.js.map": "https://adamazad.github.io/jsonpath-visualizer/static/js/main.84e238b0.chunk.js.map",
+    "runtime-main.js": "https://adamazad.github.io/jsonpath-visualizer/static/js/runtime-main.7d595fd7.js",
+    "runtime-main.js.map": "https://adamazad.github.io/jsonpath-visualizer/static/js/runtime-main.7d595fd7.js.map",
+    "static/js/2.aed3869e.chunk.js": "https://adamazad.github.io/jsonpath-visualizer/static/js/2.aed3869e.chunk.js",
+    "static/js/2.aed3869e.chunk.js.map": "https://adamazad.github.io/jsonpath-visualizer/static/js/2.aed3869e.chunk.js.map",
+    "index.html": "https://adamazad.github.io/jsonpath-visualizer/index.html",
+    "precache-manifest.2900c24f4db5fc280826e4fad6b94a13.js": "https://adamazad.github.io/jsonpath-visualizer/precache-manifest.2900c24f4db5fc280826e4fad6b94a13.js",
+    "service-worker.js": "https://adamazad.github.io/jsonpath-visualizer/service-worker.js",
+    "static/css/main.f903308c.chunk.css.map": "https://adamazad.github.io/jsonpath-visualizer/static/css/main.f903308c.chunk.css.map",
+    "static/js/2.aed3869e.chunk.js.LICENSE.txt": "https://adamazad.github.io/jsonpath-visualizer/static/js/2.aed3869e.chunk.js.LICENSE.txt",
+    "static/media/json.9091035b.svg": "https://adamazad.github.io/jsonpath-visualizer/static/media/json.9091035b.svg",
+    "static/media/JsonTree.scss": "https://adamazad.github.io/jsonpath-visualizer/static/media/times-thin.540a3dde.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d595fd7.js",
+    "static/js/2.aed3869e.chunk.js",
+    "static/css/main.f903308c.chunk.css",
+    "static/js/main.84e238b0.chunk.js"
+  ]
+}
