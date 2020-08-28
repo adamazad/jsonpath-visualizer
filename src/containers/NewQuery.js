@@ -91,7 +91,7 @@ function NewQuery() {
         </div>
       </form>
       - OR -
-      <button className="link" onClick={ fetchBitcoinUnconfirmedTx }>Bitcoin Unconfimred Txs</button>
+      <button className="link" onClick={ fetchBitcoinUnconfirmedTx }>Bitcoin Unconfirmed Txs</button>
       { error && (
         <ErrorMessage error={error}/>
       ) }
