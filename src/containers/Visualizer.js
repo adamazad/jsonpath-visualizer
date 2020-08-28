@@ -78,7 +78,6 @@ function Visualizer({ json }) {
         // Highlight the matching pointers
         jsonRef.querySelectorAll(pointerSelectors).forEach(jsonNode => jsonNode.classList.add('json-highlight'));
         // Travel to first match
-        console.log(pointers);
         traverseTo(pointers[0]);
       }
 
