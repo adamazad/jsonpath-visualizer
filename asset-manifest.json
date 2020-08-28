@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/jsonpath-visualizer/static/css/main.a1b04264.chunk.css",
-    "main.js": "/jsonpath-visualizer/static/js/main.d1a66fec.chunk.js",
-    "main.js.map": "/jsonpath-visualizer/static/js/main.d1a66fec.chunk.js.map",
-    "runtime-main.js": "/jsonpath-visualizer/static/js/runtime-main.a113ff88.js",
-    "runtime-main.js.map": "/jsonpath-visualizer/static/js/runtime-main.a113ff88.js.map",
-    "static/js/2.48a204e8.chunk.js": "/jsonpath-visualizer/static/js/2.48a204e8.chunk.js",
-    "static/js/2.48a204e8.chunk.js.map": "/jsonpath-visualizer/static/js/2.48a204e8.chunk.js.map",
-    "index.html": "/jsonpath-visualizer/index.html",
-    "precache-manifest.cf70f2e08c131f621a184bf065a84c1d.js": "/jsonpath-visualizer/precache-manifest.cf70f2e08c131f621a184bf065a84c1d.js",
-    "service-worker.js": "/jsonpath-visualizer/service-worker.js",
-    "static/css/main.a1b04264.chunk.css.map": "/jsonpath-visualizer/static/css/main.a1b04264.chunk.css.map",
-    "static/js/2.48a204e8.chunk.js.LICENSE.txt": "/jsonpath-visualizer/static/js/2.48a204e8.chunk.js.LICENSE.txt",
-    "static/media/json.a9fa5684.svg": "/jsonpath-visualizer/static/media/json.a9fa5684.svg",
-    "static/media/JsonTree.scss": "/jsonpath-visualizer/static/media/times-thin.540a3dde.svg"
+    "main.css": "https://adamazad.github.io/jsonpath-visualizer/static/css/main.3f3d231f.chunk.css",
+    "main.js": "https://adamazad.github.io/jsonpath-visualizer/static/js/main.d1a66fec.chunk.js",
+    "main.js.map": "https://adamazad.github.io/jsonpath-visualizer/static/js/main.d1a66fec.chunk.js.map",
+    "runtime-main.js": "https://adamazad.github.io/jsonpath-visualizer/static/js/runtime-main.7d595fd7.js",
+    "runtime-main.js.map": "https://adamazad.github.io/jsonpath-visualizer/static/js/runtime-main.7d595fd7.js.map",
+    "static/js/2.e1479661.chunk.js": "https://adamazad.github.io/jsonpath-visualizer/static/js/2.e1479661.chunk.js",
+    "static/js/2.e1479661.chunk.js.map": "https://adamazad.github.io/jsonpath-visualizer/static/js/2.e1479661.chunk.js.map",
+    "index.html": "https://adamazad.github.io/jsonpath-visualizer/index.html",
+    "precache-manifest.8c5dad1adbf05067700548b69560b7df.js": "https://adamazad.github.io/jsonpath-visualizer/precache-manifest.8c5dad1adbf05067700548b69560b7df.js",
+    "service-worker.js": "https://adamazad.github.io/jsonpath-visualizer/service-worker.js",
+    "static/css/main.3f3d231f.chunk.css.map": "https://adamazad.github.io/jsonpath-visualizer/static/css/main.3f3d231f.chunk.css.map",
+    "static/js/2.e1479661.chunk.js.LICENSE.txt": "https://adamazad.github.io/jsonpath-visualizer/static/js/2.e1479661.chunk.js.LICENSE.txt",
+    "static/media/json.a9fa5684.svg": "https://adamazad.github.io/jsonpath-visualizer/static/media/json.a9fa5684.svg",
+    "static/media/JsonTree.scss": "https://adamazad.github.io/jsonpath-visualizer/static/media/times-thin.540a3dde.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a113ff88.js",
-    "static/js/2.48a204e8.chunk.js",
-    "static/css/main.a1b04264.chunk.css",
+    "static/js/runtime-main.7d595fd7.js",
+    "static/js/2.e1479661.chunk.js",
+    "static/css/main.3f3d231f.chunk.css",
     "static/js/main.d1a66fec.chunk.js"
   ]
 }
