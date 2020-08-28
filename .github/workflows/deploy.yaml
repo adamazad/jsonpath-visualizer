@@ -19,6 +19,8 @@ jobs:
       run: npm install
     - name: Build page
       run: npm run build
+      env:
+        PUBLIC_URL: https://adamazad.github.io/jsonpath-visualizer
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
