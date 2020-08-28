@@ -1,0 +1,121 @@
+// Most of styling for JSON is done via JSON such as brackets and curly brackets
+// Commas are commented out
+.json-tree {
+  // Padding for each level in the tree
+  $json-padding: 12px;
+  $json-margin-bottom: 6px;
+  // Highlgihted nodes colors
+  $json-highlight-color: #e63946;
+  font-size: 12px;
+  position: relative;
+  // Expand/collapse button
+  .json-button-expand {
+    position: absolute;
+    font-size: 12px;
+    padding: 0px;
+    left: 0px;
+    top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12px;
+    width: 12px;
+    border: 0px solid #000;
+
+    background-color: transparent;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/svg/times-thin.svg);
+
+    &:active,
+    &:visited,
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .json-array,
+  .json-object {
+    margin-bottom: $json-margin-bottom;
+    padding-left: $json-padding;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+  }
+
+  .json-key-array-pair,
+  .json-key-value-pair {
+    margin-bottom: $json-margin-bottom;
+    margin-top: $json-margin-bottom;
+    padding-left: $json-padding;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    & > .json-key,
+    & > .json-value {
+      display: inline-block;
+    }
+
+    &.collapse {
+      .json-value {
+        &.object::before {
+          content: "{}";
+        }
+        &.array::before {
+          content: "[]";
+        }
+        height: 20px;
+      }
+      > .json-button-expand {
+        background-image: url(../../assets/svg/plus-thin.svg);
+      }
+    }
+  }
+
+  /* Object keys */
+  .json-key {
+    &::before {
+      content: '"';
+    }
+    &::after {
+      content: '": ';
+    }
+  }
+
+  /* Object values */
+  .json-value {
+    display: block;
+    position: relative;
+    &.string {
+      &::before {
+        content: '"';
+      }
+      &::after {
+        content: '"';
+      }
+    }
+    &.object {
+      &::before {
+        content: "{";
+      }
+      &::after {
+        content: "}";
+      }
+    }
+    &.array {
+      &::before {
+        content: "[";
+      }
+      &::after {
+        content: "]";
+      }
+    }
+  }
+
+  .json-highlight {
+    font-weight: 600;
+    color: $json-highlight-color;
+  }
+}
