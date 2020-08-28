@@ -72,7 +72,7 @@ function NewQuery() {
         </div>
       </form>
       - OR -
-      <button className="primary" onClick={ fetchBitcoinUnconfirmedTx }>Bitcoin Unconfimred Txs</button>
+      <button className="link" onClick={ fetchBitcoinUnconfirmedTx }>Bitcoin Unconfimred Txs</button>
     </Center.Content>
   );
 
