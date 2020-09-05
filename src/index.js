@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// From Bootstrap
-import './styles/reboot.css';
-import './index.scss';
-// App
+import { ThemeProvider } from 'styled-components';
 import App from './App';
+import Theme from './styles/Theme';
+import GlobalStyle from './styles/Global';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={ Theme }>
+      <GlobalStyle/>
+      <App />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
