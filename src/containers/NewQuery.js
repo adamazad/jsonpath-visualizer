@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import UseAnimations from "react-useanimations";
 import AnimationsLoading from 'react-useanimations/lib/loading';
-import { ReactComponent as JSONLogo } from '../assets/svg/json.svg';
 import FileInput from '../components/common/FileInput';
 import Visualizer from './Visualizer';
 import { Center } from '../layouts';
@@ -86,7 +85,7 @@ function NewQuery() {
       <form>
         <div>
           <FileInput className="primary" accept="application/json" onChange={ handleJsonFile }>
-            <JSONLogo width="24px"/> <span>Select a JSON File</span>
+            <span>Select a {`{JSON}`} File</span>
           </FileInput>
         </div>
       </form>
