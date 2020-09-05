@@ -2,7 +2,7 @@ import { createGlobalStyle,  } from 'styled-components';
 import { reboot } from 'styled-reboot';
 import Theme from './Theme';
 // Styled does not work with @import
-import './fonts.scss';
+import './fonts.css';
 
 const GlobalStyle = createGlobalStyle`
   ${reboot}
